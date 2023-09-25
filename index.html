@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Homoktövis</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body background="images/hatter.png">
+    <div class="container">
+      <div class="row bg-warning" id="header">
+        <h1>Homoktövis</h1>
+      </div>
+      <div class="row" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link text-warning" href="#">Homoktövis</a>
+                <a class="nav-link text-warning" href="#">Egészségügyi hatásai</a>
+                <a class="nav-link text-warning" href="#">Csodanövény</a>
+                <a class="nav-link text-warning" href="#">Tudta-e?</a>
+                <a class="nav-link text-warning" href="#">Ellenjavaslat</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row bg-warning" id="kupon">
+        <h2>Gratulálunk!</h2>
+        <p>Az alábbi kupon felhasználásával 15% kedvezménnyel rendelheti meg bármelyik termékünket a webboltunkban!</p>
+        <h2>25959</h2>
+      </div>
+      <div class="row">
+        <div class="card" id="card_top">
+          <div class="card-header">
+            <p>A homoktövis eredetileg a Himalája lejtőin és főként Ázsiában termő növény, de ma már meghódította az egész világot. Magyarországon is találkozhatunk vele a Duna mentén, a Balaton partján vagy a Csepel-szigeten. Nálunk védett növény.</p>
+          </div>
+          <div class="card-body">
+            <img src="images/bokor.jpg" alt="Bokor">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <img class="images" src="images/homoktovis_bogyos.jpg" alt="Bogyós">
+        </div>
+        <div class="col-3">
+          <img class="images" src="images/homoktovis_parlat.png" alt="Párlat">
+        </div>
+        <div class="col">
+          <img class="images" src="images/homoktovis_szaritottbogyo.jpg" alt="Szárított bogyó">
+        </div>
+        <div class="col">
+          <img class="images" src="images/homoktovis_szaritottorlemeny.jpg" alt="Szárított őrlemény">
+        </div>
+      </div>
+
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
